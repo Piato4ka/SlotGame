@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.slotmachine"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:25:5-79
+12-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:25:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:24:5-68
+13-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+14-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+15
+16    <application
+16-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:7:5-28:19
+17        android:allowBackup="true"
+17-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:8:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\rkrav\.gradle\caches\transforms-3\a3029c159ef101bfa2c928646687e4e9\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:9:9-43
+21        android:label="@string/app_name"
+21-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:10:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:11:9-54
+23        android:supportsRtl="true"
+23-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:12:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.SlotMachine" >
+25-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:13:9-49
+26        <activity
+26-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:14:9-22:20
+27            android:name="com.example.slotmachine.StartActivity"
+27-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:15:13-42
+28            android:exported="true" >
+28-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:16:13-36
+29            <intent-filter>
+29-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:17:13-21:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:18:17-69
+30-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:18:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:20:17-77
+32-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:20:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:24:9-26:38
+36            android:name="com.example.slotmachine.MainActivity"
+36-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:25:13-41
+37            android:exported="true" />
+37-->D:\Programming\Interview_Tasks\SlotMachine\app\src\main\AndroidManifest.xml:26:13-36
+38
+39        <service
+39-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:29:9-35:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:30:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rkrav\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:31:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:32:13-34:85
+44                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+44-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:33:17-117
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-config:19.1.1] C:\Users\rkrav\.gradle\caches\transforms-3\fff0e9122eb2d3a4f03e16b0b819529b\transformed\jetified-firebase-config-19.1.1\AndroidManifest.xml:34:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\fe2db46d6e9ff1e6a31a5e42eb84463b\transformed\jetified-firebase-abt-19.0.1\AndroidManifest.xml:13:13-15:85
+47                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+47-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\fe2db46d6e9ff1e6a31a5e42eb84463b\transformed\jetified-firebase-abt-19.0.1\AndroidManifest.xml:14:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\fe2db46d6e9ff1e6a31a5e42eb84463b\transformed\jetified-firebase-abt-19.0.1\AndroidManifest.xml:15:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+50                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+50-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+52        </service>
+53
+54        <receiver
+54-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+55            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+55-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+56            android:exported="true"
+56-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+57            android:permission="com.google.android.c2dm.permission.SEND" >
+57-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+58            <intent-filter>
+58-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+59                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+59-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+59-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\rkrav\.gradle\caches\transforms-3\36ba15718dea1399a13fdf14eb96df0f\transformed\jetified-firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+60            </intent-filter>
+61        </receiver>
+62
+63        <provider
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rkrav\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+64            android:name="com.google.firebase.provider.FirebaseInitProvider"
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rkrav\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+65            android:authorities="com.example.slotmachine.firebaseinitprovider"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rkrav\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+66            android:exported="false"
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rkrav\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+67            android:initOrder="100" />
+67-->[com.google.firebase:firebase-common:19.3.0] C:\Users\rkrav\.gradle\caches\transforms-3\39635a2b406848937f27310ac21c1b66\transformed\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\792c1c09c41f15a3a8afffc3db939d08\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\9e9097370604f876b49cd545547099ac\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\9e9097370604f876b49cd545547099ac\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\9e9097370604f876b49cd545547099ac\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+80            android:authorities="com.example.slotmachine.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\rkrav\.gradle\caches\transforms-3\448244e2fc8c3dd9b78d887e737ac9dd\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rkrav\.gradle\caches\transforms-3\39836b7515ae19fa80a660979e409e25\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rkrav\.gradle\caches\transforms-3\39836b7515ae19fa80a660979e409e25\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\rkrav\.gradle\caches\transforms-3\39836b7515ae19fa80a660979e409e25\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

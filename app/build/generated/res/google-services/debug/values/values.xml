@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">666685365060-9ql9ljicpbka1crvd5413p6987csjoo9.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">666685365060</string>
+    <string name="google_api_key" translatable="false">AIzaSyAf9iFbvcUpyJQjFeH8qG9lhZJFY-bs_ZE</string>
+    <string name="google_app_id" translatable="false">1:666685365060:android:c4ddee9f39b742decf5511</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAf9iFbvcUpyJQjFeH8qG9lhZJFY-bs_ZE</string>
+    <string name="google_storage_bucket" translatable="false">slotmachine-16632.appspot.com</string>
+    <string name="project_id" translatable="false">slotmachine-16632</string>
+</resources>
