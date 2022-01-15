@@ -40,8 +40,7 @@ public class Wheel extends Thread {
         while (isStarted) {
             try {
                 Thread.sleep(frameDuration);
-            } catch (InterruptedException e) {
-            }
+            } catch (InterruptedException e) { }
 
             nextImg();
 

@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        img1 = (ImageView) findViewById(R.id.img1);
-        img2 = (ImageView) findViewById(R.id.img2);
-        img3 = (ImageView) findViewById(R.id.img3);
-        btn = (Button) findViewById(R.id.btn);
-        msg = (TextView) findViewById(R.id.msg);
+        img1 = findViewById(R.id.img1);
+        img2 = findViewById(R.id.img2);
+        img3 = findViewById(R.id.img3);
+        btn = findViewById(R.id.btn);
+        msg = findViewById(R.id.msg);
 
 
         btn.setOnClickListener(new View.OnClickListener() {
