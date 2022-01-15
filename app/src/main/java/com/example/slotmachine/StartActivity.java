@@ -1,15 +1,11 @@
 package com.example.slotmachine;
 
-import static androidx.constraintlayout.widget.ConstraintLayoutStates.TAG;
+import android.content.Intent;
+import android.os.Bundle;
+import android.webkit.WebView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.webkit.WebView;
-import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -17,8 +13,8 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 
 public class StartActivity extends AppCompatActivity {
-    private WebView webView;
     private final String URL = "https://youtube.com";
+    private WebView webView;
     private boolean auth = false;
 
     @Override
@@ -31,7 +27,7 @@ public class StartActivity extends AppCompatActivity {
 
         FirebaseRemoteConfig mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         FirebaseRemoteConfigSettings configSettings = new FirebaseRemoteConfigSettings.Builder()
-                .setMinimumFetchIntervalInSeconds(3600)
+                .setMinimumFetchIntervalInSeconds(1)
                 .build();
         mFirebaseRemoteConfig.setConfigSettingsAsync(configSettings);
 
@@ -56,10 +52,10 @@ public class StartActivity extends AppCompatActivity {
                             }
 
                         }
-                }
+                    }
 
 
-});
+                });
     }
 }
 

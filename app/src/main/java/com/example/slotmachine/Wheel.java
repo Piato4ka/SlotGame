@@ -37,7 +37,7 @@ public class Wheel extends Thread {
         } catch (InterruptedException e) {
         }
 
-        while(isStarted) {
+        while (isStarted) {
             try {
                 Thread.sleep(frameDuration);
             } catch (InterruptedException e) {
